@@ -11,4 +11,6 @@ import java.io.*;
  str=br.readLine();  
  dout.writeUTF(str);  
  dout.flush();  
- str2=din.readUTF();  
+ str2=din.readUTF(); 
+ System.out.println("Server says: "+str2);  
+    }   
